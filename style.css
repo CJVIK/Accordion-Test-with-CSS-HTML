@@ -108,7 +108,7 @@ h1 {
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  transform: translate3d(0, -10px, 0);
+  /* transform: translate3d(0, -10px, 0); */
   transition:
     max-height 0.55s cubic-bezier(0.301, 0.333, 0.633, 0.683),
     transform 0.55s cubic-bezier(0.301, 0.333, 0.633, 0.683),
@@ -122,7 +122,7 @@ h1 {
 .dragspel-input:checked ~ .dragspel-innehall {
   max-height: 700px;
   opacity: 1;
-  transform: translate3d(0, 0, 0);
+  /* transform: translate3d(0, 0, 0); */
 }
 
 
