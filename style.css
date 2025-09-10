@@ -120,7 +120,7 @@ h1 {
 }
 
 .dragspel-input:checked ~ .dragspel-innehall {
-  max-height: 1000px;
+  max-height: 700px;
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
