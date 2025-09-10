@@ -110,13 +110,17 @@ h1 {
   overflow: hidden;
   transform: translate3d(0, -10px, 0);
   transition:
-    max-height 0.9s cubic-bezier(.3,0,.66,1),
+    max-height 0.77s cubic-bezier(.3,0,.66,1),
+    transform 0.77s cubic-bezier(.3,0,.66,1),
+    opacity 0.77s ease-in-out;
+    
+    /* max-height 0.9s cubic-bezier(.3,0,.66,1),
     opacity 0.7s ease-in-out,
-    transform 0.8s cubic-bezier(.3,0,.66,1);
+    transform 0.8s cubic-bezier(.3,0,.66,1); */
 }
 
 .dragspel-input:checked ~ .dragspel-innehall {
-  max-height: 2000px;
+  max-height: 1000px;
   opacity: 1;
   transform: translate3d(0, 0, 0);
 }
